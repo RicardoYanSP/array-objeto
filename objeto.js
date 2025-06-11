@@ -34,3 +34,6 @@ let pessoa = {
 console.log(pessoa.dataDeNascimento)
 console.log(pessoa.contato.email)
 console.log(pessoa.endereco.estado)
+//ao chamar uma propriedade que contém uma função deve-se colocar os parênteses
+
+console.log(pessoa.adicionar())
